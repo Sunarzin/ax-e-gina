@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const textoFormatado = encodeURIComponent(`💌 *Recado do Site:* \n\n"${texto}"`);
             
             // Monta o link do WhatsApp
-            const urlWhatsApp = `https://web.whatsapp.com/send?phone=${seuNumero}&text=${textoFormatado}`;
+            const urlWhatsApp = `https://wa.me/send?phone=${seuNumero}&text=${textoFormatado}`;
 
             // Abre o WhatsApp em uma nova aba para enviar
             window.open(urlWhatsApp, "_blank");
